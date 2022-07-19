@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MasterSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 12b6cd1de8a344cb484b1eb44329f0cf, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a18b9c112adbb4639847f16a2ad84763, type: 3}
+  - {fileID: 21300000, guid: 3148e2c19dda7455fb90ef6a2a95369f, type: 3}
+  - {fileID: 21300000, guid: fa90084210a154d739e540fe254da4f0, type: 3}
+  - {fileID: 21300000, guid: 536fb1722d02d427baa276b152f86930, type: 3}
+  - {fileID: 21300000, guid: e2f05592b0e30481a8769b4acfd00409, type: 3}
+  - {fileID: 8743823167541710732, guid: fa2b4eb25c1cd4757becd303d6e206c2, type: 3}
+  - {fileID: 9030038074234764, guid: fa2b4eb25c1cd4757becd303d6e206c2, type: 3}
+  - {fileID: -3676127465509939949, guid: fa2b4eb25c1cd4757becd303d6e206c2, type: 3}
+  - {fileID: -1486860408482890109, guid: fa2b4eb25c1cd4757becd303d6e206c2, type: 3}
+  - {fileID: 21300000, guid: f95eb6f329a2445e290c15ac37c6ad18, type: 3}
+  - {fileID: 21300000, guid: 18ab89f385fc643c6ac18b91a91e5ca9, type: 3}
+  - {fileID: 21300000, guid: 3703bff38b02749bf8e8e19b2d26ea16, type: 3}
+  - {fileID: 21300000, guid: 2fbb8db4a8666412aa9598d32259260d, type: 3}
+  - {fileID: 21300000, guid: da75a12550daa458ba3c17b65697d9cb, type: 3}
+  - {fileID: 21300000, guid: 21a05f3503cc44257a67c7ab303ee482, type: 3}
+  - {fileID: 21300000, guid: 02fa28264193945ad91750232d73a706, type: 3}
+  - {fileID: 21300000, guid: ddfa90369a08f48a3a1936ce9b604cdc, type: 3}
+  - {fileID: 21300000, guid: 59cec3d6781f24b33ae2a2317169244c, type: 3}
+  - {fileID: 21300000, guid: eb1acaf68ccac43f78da46ad048f5c25, type: 3}
+  - {fileID: 21300000, guid: d8baabf6b3ed74ecf9ac2a645f09ffc1, type: 3}
+  - {fileID: 21300000, guid: dd3c04a72af1942a888b95f31d65fc79, type: 3}
+  - {fileID: 21300000, guid: b9b789a82300d4dbdb7584fb12a66ac6, type: 3}
+  - {fileID: 21300000, guid: f1903da96a948421786406c5e9f81adb, type: 3}
+  - {fileID: 21300000, guid: 288d43e99d55947f0a6cc01c24bea51f, type: 3}
+  - {fileID: 21300000, guid: cbdfe6ebadb4945bf9c9b332fcef95dc, type: 3}
+  - {fileID: 21300000, guid: c34dc63db495942728a71f781ba5cc20, type: 3}
+  - {fileID: 21300000, guid: 07bc129d97bca401b9ced5c58e549f13, type: 3}
+  - {fileID: 21300000, guid: 923ad12f574ca4a6fbd9cb3c24730e01, type: 3}
+  - {fileID: 21300000, guid: 40e0ec4feabe64eb1b165ef6f29be61f, type: 3}
+  - {fileID: 21300000, guid: 7c01f47fc077b4c888f2291bd22d7627, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Brick4-crack3
+  - Brick3-crack1
+  - BombPowerUpIcon
+  - Brick4-crack1
+  - Brick2-crack2
+  - particleSprites_0
+  - particleSprites_1
+  - particleSprites_2
+  - particleSprites_3
+  - Brick1-crack1
+  - Brick1
+  - BombPowerUp
+  - CircleBrick-Crack3
+  - Brick3
+  - Brick3-crack3
+  - BallSpawn
+  - Brick4-crack2
+  - Brick3-crack2
+  - Brick2-crack3
+  - CircleBrick-Crack1
+  - HollowRingExplosionFX
+  - CircleBrick
+  - Brick4
+  - Ball
+  - Brick1-crack2
+  - Brick2
+  - CircleBrick-Crack2
+  - Brick1-crack3
+  - particleSprites 2
+  - Brick2-crack1
+  m_RenderDataMap: {}
+  m_Tag: MasterSpriteAtlas
+  m_IsVariant: 0

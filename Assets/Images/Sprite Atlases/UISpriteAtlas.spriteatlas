@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UISpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 8b46bcc5828af4149b74d47ebd1b31f0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -8440974137358750234, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: -9015495111585506812, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 3450369622003840145, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 1593989720197626011, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 8509995406466692087, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: -1877175513406437313, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 3394420563121825309, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: -3016093784141690031, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: -7119380908746499529, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 3760143591262298646, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 4005651907120217146, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: -3072494316746013800, guid: 464f1030488b0440c8281501b1fd354d, type: 3}
+  - {fileID: 21300000, guid: cd50ff30255ca4d1ebea4c4b37a3a9c6, type: 3}
+  - {fileID: 21300000, guid: bf5910b0ba2403a448a96cb6f77b611c, type: 3}
+  - {fileID: 21300000, guid: a3e17a2116a1d4e9bb6154c069d9a78d, type: 3}
+  - {fileID: 21300000, guid: 8b5e1961bb19a4c619159db349b73937, type: 3}
+  - {fileID: 21300000, guid: 5014d122e46fe407180b84d84199a827, type: 3}
+  - {fileID: 21300000, guid: d1c3c76436eb24a6f928171d260dd236, type: 3}
+  - {fileID: 21300000, guid: 59c6e4c44d31a4141963903c70b7a490, type: 3}
+  - {fileID: 21300000, guid: 52e2f60575cfb4bf19b2985faadf4e28, type: 3}
+  - {fileID: 21300000, guid: be392a758ddbb48f6b63345779d6ce7b, type: 3}
+  - {fileID: 21300000, guid: 5004e7e511cf24fed8a3fc9874945cf3, type: 3}
+  - {fileID: 21300000, guid: 7f8c005676cec49bd95b56e2475f3c3a, type: 3}
+  - {fileID: 21300000, guid: 7b798047c53aa4249bda7a2506805be9, type: 3}
+  - {fileID: 21300000, guid: c02e11673513947dab7e96040c3fb7e7, type: 3}
+  - {fileID: 21300000, guid: 690fbfc7cea3f44d1a9f66d33fcd19e9, type: 3}
+  - {fileID: 21300000, guid: 4b24ef082308b4f3f8957dbc8f665823, type: 3}
+  - {fileID: 21300000, guid: 44c00219d5d354b159ae123e87800487, type: 3}
+  - {fileID: 21300000, guid: aabaac290cdc14893945a791f9a536f5, type: 3}
+  - {fileID: 21300000, guid: c52628797f24b4610965dd13cff49d49, type: 3}
+  - {fileID: 21300000, guid: 58e0be4ce77f448448111c125786b71b, type: 3}
+  - {fileID: 21300000, guid: ff3d242dd5615401f9575997a62f4ab3, type: 3}
+  - {fileID: 21300000, guid: 8c1587cd24cd649c4b2995127ec9f133, type: 3}
+  - {fileID: 21300000, guid: d670de6e025c24429a9f89cbb5b7f71d, type: 3}
+  - {fileID: 21300000, guid: 661811ae1d3399b4180ad5c251384df4, type: 3}
+  - {fileID: 21300000, guid: d98c1d9f6f85f6e4cb4a0552d0452b48, type: 3}
+  - {fileID: 21300000, guid: 196f66af6fddb460baf5a1874eb7f048, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CoinSpriteSheet_10
+  - CoinSpriteSheet_11
+  - CoinSpriteSheet_5
+  - CoinSpriteSheet_4
+  - CoinSpriteSheet_7
+  - CoinSpriteSheet_6
+  - CoinSpriteSheet_1
+  - CoinSpriteSheet_0
+  - CoinSpriteSheet_3
+  - CoinSpriteSheet_2
+  - CoinSpriteSheet_9
+  - CoinSpriteSheet_8
+  - RVIcon
+  - mutedIcon
+  - BugButton
+  - Checkmark
+  - Square
+  - Star
+  - ArrowDown
+  - ButtonRectangle
+  - Coin
+  - Crown
+  - Pixel
+  - Logo
+  - ButtonSquare
+  - iPhoneSafeArea
+  - Menu
+  - Rename
+  - BronzePaddleUI
+  - SilverPaddleUI
+  - volumeRings
+  - BasePaddleUI
+  - GoldPaddleUI
+  - Refresh
+  - volumeSpeaker
+  - micIcon
+  - Circle
+  m_RenderDataMap: {}
+  m_Tag: UISpriteAtlas
+  m_IsVariant: 0

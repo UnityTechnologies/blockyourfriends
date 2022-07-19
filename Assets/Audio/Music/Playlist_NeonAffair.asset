@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8ae00ed73a4f4282969df8897e2f614, type: 3}
+  m_Name: Playlist_NeonAffair
+  m_EditorClassIdentifier: 
+  trackList:
+  - {fileID: 11400000, guid: 376ba010ccd6f46719532b7b9be1a466, type: 2}
+  playListName: Neon Affair Playlist

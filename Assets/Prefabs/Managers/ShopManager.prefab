@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8597632760786693151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8597632760786693150}
+  - component: {fileID: 859306224}
+  m_Layer: 0
+  m_Name: ShopManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8597632760786693150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597632760786693151}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &859306224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597632760786693151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 415d53e35f8284fcfb2a7ffb3c31a013, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equipBasePaddleButton: {fileID: 0}
+  basePaddleActive: {fileID: 0}
+  basePaddleInactive: {fileID: 0}
+  buyBronzePaddleButton: {fileID: 0}
+  equipBronzePaddleButton: {fileID: 0}
+  bronzePaddleActive: {fileID: 0}
+  bronzePaddleInactive: {fileID: 0}
+  buySilverPaddleButton: {fileID: 0}
+  equipSilverPaddleButton: {fileID: 0}
+  silverPaddleActive: {fileID: 0}
+  silverPaddleInactive: {fileID: 0}
+  buyGoldPaddleButton: {fileID: 0}
+  equipGoldPaddleButton: {fileID: 0}
+  goldPaddleActive: {fileID: 0}
+  goldPaddleInactive: {fileID: 0}
+  equipYesButton: {fileID: 0}
+  equipNoButton: {fileID: 0}
+  OKButton: {fileID: 0}
+  buyBronzePaddleCoinsButton: {fileID: 0}
+  buySilverPaddleCoinsButton: {fileID: 0}
+  buyGoldPaddleCoinsButton: {fileID: 0}
+  removeAdsButton: {fileID: 0}
+  restorePurchasesButton: {fileID: 0}
+  bronzePaddlePriceText: {fileID: 0}
+  silverPaddlePriceText: {fileID: 0}
+  goldPaddlePriceText: {fileID: 0}
+  removeAdsButtonText: {fileID: 0}
+  restorePurchasesButtonText: {fileID: 0}
+  purchaseResultText: {fileID: 0}
+  coinsText: {fileID: 0}

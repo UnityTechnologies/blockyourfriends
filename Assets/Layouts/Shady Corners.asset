@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb7e0534cc67429789a079d540df700, type: 3}
+  m_Name: Shady Corners
+  m_EditorClassIdentifier: 
+  levelTime: 30
+  layoutName: Shady Corners
+  maxPowerUps: 1
+  powerUpChance: 0.2
+  layoutScale: 0.6
+  zRotation: 45
+  rotateAssembly: 1
+  rotationRate: -20
+  brickLayout:
+  - rowBricks:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+  - rowBricks:
+    - {fileID: -701525503472972483, guid: 9d5d1714c0f384143bbffd8337cff7ec, type: 3}
+    - {fileID: 0}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -701525503472972483, guid: 9d5d1714c0f384143bbffd8337cff7ec, type: 3}
+    - {fileID: 0}
+  - rowBricks:
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+  - rowBricks:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+  - rowBricks:
+    - {fileID: -701525503472972483, guid: 9d5d1714c0f384143bbffd8337cff7ec, type: 3}
+    - {fileID: 0}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -701525503472972483, guid: 9d5d1714c0f384143bbffd8337cff7ec, type: 3}
+    - {fileID: 0}

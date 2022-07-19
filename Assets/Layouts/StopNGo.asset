@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bb7e0534cc67429789a079d540df700, type: 3}
+  m_Name: StopNGo
+  m_EditorClassIdentifier: 
+  levelTime: -30
+  layoutName: Stop 'N' Go
+  maxPowerUps: 1
+  powerUpChance: 0.2
+  layoutScale: 0.6
+  zRotation: 45
+  rotateAssembly: 1
+  rotationRate: -10
+  brickLayout:
+  - rowBricks:
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+  - rowBricks:
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -9013466308792429626, guid: 311a59d17908c4318a7d0f7062940676, type: 3}
+    - {fileID: -9013466308792429626, guid: 2bfc75dc9ad0849f088f44227b1ae0ef, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+  - rowBricks:
+    - {fileID: -7825411291979385249, guid: 87233ee5b0e754abdaf106ff6ffebf8e, type: 3}
+    - {fileID: -7825411291979385249, guid: 87233ee5b0e754abdaf106ff6ffebf8e, type: 3}
+    - {fileID: -7825411291979385249, guid: 87233ee5b0e754abdaf106ff6ffebf8e, type: 3}
+    - {fileID: -7825411291979385249, guid: 87233ee5b0e754abdaf106ff6ffebf8e, type: 3}
+    - {fileID: -7825411291979385249, guid: 87233ee5b0e754abdaf106ff6ffebf8e, type: 3}
+  - rowBricks:
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -9013466308792429626, guid: 311a59d17908c4318a7d0f7062940676, type: 3}
+    - {fileID: -9013466308792429626, guid: 2bfc75dc9ad0849f088f44227b1ae0ef, type: 3}
+    - {fileID: -9013466308792429626, guid: 13adbdfdc53f24345badff9e5c705797, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+  - rowBricks:
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}
+    - {fileID: -5839028197655819438, guid: eef8c78ca6a494e8d808507d496aaef7, type: 3}

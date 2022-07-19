@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &153750873787963982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153750873787963983}
+  - component: {fileID: 153750873787963981}
+  - component: {fileID: 153750873787963980}
+  m_Layer: 0
+  m_Name: BrickManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &153750873787963983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153750873787963982}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &153750873787963981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153750873787963982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 951099334
+  AlwaysReplicateAsRoot: 0
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+--- !u!114 &153750873787963980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153750873787963982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1bcb2f587f8f49258eab7d970266dcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingRotation: {x: 0, y: 0, z: 45}
+  startingScale: {x: 0.6, y: 0.6, z: 0.6}
+  gameLength: 5
+  maxRowLength: 5
+  maxNumberOfRows: 5
+  currentLevel: 0
+  layoutParentPrefab: {fileID: 572381692489183196, guid: 5ee09d0966aab4d8c86e253ecbafe0e3, type: 3}
+  randomizeLevels: 1
+  layouts:
+  - {fileID: 11400000, guid: 7973d8259d2814677a419d9884676ae2, type: 2}
+  - {fileID: 11400000, guid: 98d0cb323c1f247349abc5f01cd9bd27, type: 2}
+  - {fileID: 11400000, guid: db35ae8ed4b6f4934a097968996e64df, type: 2}
+  - {fileID: 11400000, guid: 4b7908de793c746758a17daf19e331a3, type: 2}
+  - {fileID: 11400000, guid: 9682a3bc48c904e90ae0fcfd5da35c07, type: 2}
+  - {fileID: 11400000, guid: 1d07e55e67bfd4cb194abebe73bdc557, type: 2}
+  - {fileID: 11400000, guid: 9b46206ec11f440e6a1e0f29901e9e05, type: 2}
+  - {fileID: 11400000, guid: 12150a6a6cbb744549d0fd8cbb5d0041, type: 2}
+  - {fileID: 11400000, guid: edcfaeaadf7be46bbaaec6493f578fa2, type: 2}
+  - {fileID: 11400000, guid: 3553dde49a5504709afcf232dd178997, type: 2}
+  - {fileID: 11400000, guid: 0718bea3f49464171839c6eee4de51ed, type: 2}
+  - {fileID: 11400000, guid: 8ffacfdc8bf85470ba0c08454c62adb9, type: 2}
+  - {fileID: 11400000, guid: 8ffacfdc8bf85470ba0c08454c62adb9, type: 2}
+  ballSpawner: {fileID: 7261846756857743809, guid: ce0effcc4fcb54f0eba607349c9fd61d, type: 3}
+  layoutParentFromClient: {fileID: 0}
+  brickThreshold: 0
+  timeToDisplayLevelText: 5
+  endGameText: That's all folks!
+  endGameTimer: 5
+  fastLevelEnd: 0

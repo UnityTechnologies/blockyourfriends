@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &684316441
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 684316442}
+  - component: {fileID: 684316443}
+  - component: {fileID: 684316445}
+  - component: {fileID: 684316444}
+  m_Layer: 0
+  m_Name: SetupInGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &684316442
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684316441}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2025087522257644182}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &684316443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684316441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f7533ddeca587549a9798a65a8670ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_prefabNetworkManager: {fileID: 4822876208552654857, guid: 97d4da154bc814f21a8c0bc0372528d6, type: 3}
+  m_prefabInGameLogic: {fileID: 8211062640551938517, guid: 1cc5c1e3d351a48d0ad1fd0843a348e4, type: 3}
+  m_disableWhileInGame:
+  - {fileID: 0}
+--- !u!114 &684316445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684316441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70dfc2fde0a9ef04eaff29a138f0bf45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnObservedUpdated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 684316443}
+        m_TargetAssemblyTypeName: BlockYourFriends.Multiplayer.ngo.SetupInGame, Assembly-CSharp
+        m_MethodName: OnLobbyChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &684316444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 684316441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a03b37d5b8df06948b36dfbc430a1ea5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnObservedUpdated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 684316443}
+        m_TargetAssemblyTypeName: BlockYourFriends.Multiplayer.ngo.SetupInGame, Assembly-CSharp
+        m_MethodName: OnLocalUserChange
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &2025087522257644183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025087522257644182}
+  - component: {fileID: 2025087522257644180}
+  - component: {fileID: 2133807288}
+  - component: {fileID: 416736474}
+  m_Layer: 0
+  m_Name: MultiplayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2025087522257644182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025087522257644183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 684316442}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2025087522257644180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025087522257644183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b62c75135fcba4d7bbe8d6e6bc3729a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameStateObservers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  localLobbyObservers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 684316445}
+  localUserObservers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 684316444}
+  lobbyServiceObservers:
+  - {fileID: 0}
+  - {fileID: 0}
+  vivoxUserHandlers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &2133807288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025087522257644183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9275e9be406280e4198464167a8b9186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durationToleranceMs: 50
+  doNotRemoveIfTooLong: 1
+--- !u!114 &416736474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025087522257644183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ee151fe880a646678a86c3477145b44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

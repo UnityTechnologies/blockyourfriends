@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
+  m_Name: RemoteConfigDataStoreAsset
+  m_EditorClassIdentifier: 
+  _rsKeyList: '[]'
+  _rsLastCachedKeyList: '[]'
+  _environments: "[\n  {\n    \"projectId\": \"e582a88f-5822-4d31-a3a7-6d521cb3d596\",\n   
+    \"name\": \"gameplaytesting\",\n    \"id\": \"4a067f5d-7c14-4384-8f38-8b2e9a75786d\",\n   
+    \"isDefault\": false,\n    \"createdAt\": \"2022-02-11T21:48:10Z\",\n    \"updatedAt\":
+    \"2022-02-11T21:48:10Z\"\n  },\n  {\n    \"projectId\": \"e582a88f-5822-4d31-a3a7-6d521cb3d596\",\n   
+    \"name\": \"development\",\n    \"id\": \"1dd264c0-cefc-4ac4-9c77-f833d3029ee8\",\n   
+    \"isDefault\": false,\n    \"createdAt\": \"2022-02-09T04:07:06Z\",\n    \"updatedAt\":
+    \"2022-02-09T04:07:06Z\"\n  },\n  {\n    \"projectId\": \"e582a88f-5822-4d31-a3a7-6d521cb3d596\",\n   
+    \"name\": \"production\",\n    \"id\": \"e13f179f-31e6-49c6-92ef-959de409da79\",\n   
+    \"isDefault\": true,\n    \"createdAt\": \"2022-01-11T14:46:22Z\",\n    \"updatedAt\":
+    \"2022-01-11T14:46:22Z\"\n  }\n]"
